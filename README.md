@@ -9,6 +9,7 @@ And inspired on the [djhworld/makewords](https://github.com/djhworld/makewords) 
 Maybe we can have others developers who can make the next programs (sort and unique)
 
 Installation and Usage
+=========
 
 $ dmd lowercase.d 
 $ cat myfile.txt | ./lowercase
