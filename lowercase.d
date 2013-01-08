@@ -5,7 +5,7 @@ import std.string;
 void main() {
   foreach(string e; lines(stdin)) {
 			if(e != "") {
-				writeln(toLower(e));
+				write(toLower(e));
 			}
 		}
 	}
