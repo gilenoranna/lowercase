@@ -17,3 +17,22 @@ $ cat myfile.txt | ./lowercase
 Using with the makewords program
 
 $ cat myfile.txt | ./makewords | ./lowercase
+
+
+News
+=========
+
+In linux, you can use the following commands to create the full pipeline:
+
+cat file_name | ./makewords* | ./lowercase | sort | uniq | aspell pipe --lang=en_US**
+
+*   -> You can get this program in this following github repository: 
+https://github.com/djhworld/makewords
+
+**  -> If you use debian/ubuntu, you can download it using the following command:
+sudo apt-get install aspell
+Or, if you use any other distro, you can also download it on this link and compile it by yourself:
+http://aspell.net/
+
+Note: Both ./makewords and lowercase must be in the same directory, or you can do it by changing the sequence of commands with the path of these files.
+
